@@ -1,0 +1,49 @@
+.grid{
+    display : flex;
+    flex-flow : row wrap;
+    width : 520px;
+    height:50px;
+    border: 1px solid black;
+    margin:0 auto;
+}
+.grid div{
+    width:50px;
+    height:inherit;
+    text-align:center;
+    font-weight: 700;
+    border :1px solid black;
+    font-size : 2rem;
+}
+h1{
+    text-align:center;
+}
+.exchange{
+    background-color:red;
+}
+.swap{
+    width:200px;
+    height:200px;
+    margin : 0 auto;
+    border:1px solid black;
+    margin-top:50px;
+}
+.grid2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 520px;
+    height: 50px;
+    margin: 0 auto;
+}
+    .grid2 div {
+        width: 50px;
+        height: inherit;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+        visibility: hidden;
+    }
+.visible {
+    visibility: visible;
+    content: "^";
+    font-size:2rem;
+}
